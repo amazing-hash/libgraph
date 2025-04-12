@@ -462,9 +462,3 @@ fn main() {
     assert_eq!(distances[5].unwrap(), 14.0);
 }
 ```
-
-### Cargo.toml
-```bash
-[dependencies]
-libgraph = {git = "https://github.com/mingendo/libgraph.git", branch="main"}
-```
